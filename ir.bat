@@ -1,1 +1,1 @@
-cd ../../OBI2022/P2/F1/chuva/
+cd ../OBI2022/P2/F1/chuva/
