@@ -76,7 +76,7 @@ if sys.argv[1]=="criar":
     data[id_exercicio]=caminho_exercicio
 
     with open("ir.bat", 'w') as arquivo:
-        arquivo.write("cd "+data["CD"]+data[id_exercicio])
+        arquivo.write("cd "+data[id_exercicio])
     
     with open("data.json", 'w') as arquivo:
         json.dump(data, arquivo, indent=4)
@@ -84,6 +84,6 @@ if sys.argv[1]=="criar":
 else: 
     if(data[sys.argv[2]]):
         with open("ir.bat", 'w') as arquivo:
-            arquivo.write("cd "+data["CD"]+data[sys.argv[2]])
+            arquivo.write("cd "+data[sys.argv[2]])
     else:
         print('ainda nao existe pasta para exercício '+sys.argv[2])

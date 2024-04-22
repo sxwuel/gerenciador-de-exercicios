@@ -1,1 +1,1 @@
-cd ../OBI2012/P2/f1/tabuleiro/
+cd ../../OBI2022/P2/F1/chuva/
