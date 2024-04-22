@@ -1,0 +1,1 @@
+cd ../OBI2012/P2/f1/tabuleiro/
